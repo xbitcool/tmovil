@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  UILoginController.h
 //  tmovil
 //
 //  Created by Christian Helmut on 11/5/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface UILoginController : UIViewController
 
 @end

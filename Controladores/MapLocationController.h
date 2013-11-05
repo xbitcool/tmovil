@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  MapLocationController.h
 //  tmovil
 //
 //  Created by Christian Helmut on 11/5/13.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface MapLocationController : UIViewController
+
+@property (retain, nonatomic) NSString *Location;
 
 @end
