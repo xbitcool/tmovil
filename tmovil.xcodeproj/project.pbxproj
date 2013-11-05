@@ -58,6 +58,18 @@
 		F3A0855818291BC2000D01C1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A0855718291BC2000D01C1 /* CFNetwork.framework */; };
 		F3A0855A18291BD7000D01C1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A0855918291BD7000D01C1 /* MobileCoreServices.framework */; };
 		F3A0855C18291C07000D01C1 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A0855B18291C07000D01C1 /* SDWebImage.framework */; };
+		F3A0856018291FCE000D01C1 /* UILoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A0855F18291FCD000D01C1 /* UILoginController.m */; };
+		F3A0856318292343000D01C1 /* UIMedicosController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A0856218292343000D01C1 /* UIMedicosController.m */; };
+		F3A085661829304E000D01C1 /* DetalleMedicosController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A085651829304E000D01C1 /* DetalleMedicosController.m */; };
+		F3A0859718293751000D01C1 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = F3A0859218293751000D01C1 /* star.png */; };
+		F3A0859818293751000D01C1 /* star.psd in Resources */ = {isa = PBXBuildFile; fileRef = F3A0859318293751000D01C1 /* star.psd */; };
+		F3A0859918293751000D01C1 /* star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3A0859418293751000D01C1 /* star@2x.png */; };
+		F3A0859A18293751000D01C1 /* star_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = F3A0859518293751000D01C1 /* star_highlighted.png */; };
+		F3A0859B18293751000D01C1 /* star_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3A0859618293751000D01C1 /* star_highlighted@2x.png */; };
+		F3A0859F1829375F000D01C1 /* StarRatingControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A0859E1829375F000D01C1 /* StarRatingControl.m */; };
+		F3A085A218293D51000D01C1 /* MedicoCell_iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3A085A118293D51000D01C1 /* MedicoCell_iphone.xib */; };
+		F3A085A5182945EF000D01C1 /* MapLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A085A4182945EF000D01C1 /* MapLocationController.m */; };
+		F3A085A8182948C5000D01C1 /* MedicosDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A085A7182948C5000D01C1 /* MedicosDataParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -159,6 +171,24 @@
 		F3A0855718291BC2000D01C1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		F3A0855918291BD7000D01C1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		F3A0855B18291C07000D01C1 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = "<group>"; };
+		F3A0855E18291FCD000D01C1 /* UILoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UILoginController.h; path = Controladores/UILoginController.h; sourceTree = SOURCE_ROOT; };
+		F3A0855F18291FCD000D01C1 /* UILoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UILoginController.m; path = Controladores/UILoginController.m; sourceTree = SOURCE_ROOT; };
+		F3A0856118292343000D01C1 /* UIMedicosController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIMedicosController.h; path = Controladores/UIMedicosController.h; sourceTree = SOURCE_ROOT; };
+		F3A0856218292343000D01C1 /* UIMedicosController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIMedicosController.m; path = Controladores/UIMedicosController.m; sourceTree = SOURCE_ROOT; };
+		F3A085641829304E000D01C1 /* DetalleMedicosController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetalleMedicosController.h; path = Controladores/DetalleMedicosController.h; sourceTree = SOURCE_ROOT; };
+		F3A085651829304E000D01C1 /* DetalleMedicosController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetalleMedicosController.m; path = Controladores/DetalleMedicosController.m; sourceTree = SOURCE_ROOT; };
+		F3A0859218293751000D01C1 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		F3A0859318293751000D01C1 /* star.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = star.psd; sourceTree = "<group>"; };
+		F3A0859418293751000D01C1 /* star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star@2x.png"; sourceTree = "<group>"; };
+		F3A0859518293751000D01C1 /* star_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_highlighted.png; sourceTree = "<group>"; };
+		F3A0859618293751000D01C1 /* star_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star_highlighted@2x.png"; sourceTree = "<group>"; };
+		F3A0859D1829375F000D01C1 /* StarRatingControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarRatingControl.h; sourceTree = "<group>"; };
+		F3A0859E1829375F000D01C1 /* StarRatingControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarRatingControl.m; sourceTree = "<group>"; };
+		F3A085A118293D51000D01C1 /* MedicoCell_iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MedicoCell_iphone.xib; path = CustomCeldas/MedicoCell_iphone.xib; sourceTree = SOURCE_ROOT; };
+		F3A085A3182945EF000D01C1 /* MapLocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapLocationController.h; path = Controladores/MapLocationController.h; sourceTree = SOURCE_ROOT; };
+		F3A085A4182945EF000D01C1 /* MapLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapLocationController.m; path = Controladores/MapLocationController.m; sourceTree = SOURCE_ROOT; };
+		F3A085A6182948C5000D01C1 /* MedicosDataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MedicosDataParser.h; path = Parsing/MedicosDataParser.h; sourceTree = SOURCE_ROOT; };
+		F3A085A7182948C5000D01C1 /* MedicosDataParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MedicosDataParser.m; path = Parsing/MedicosDataParser.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,16 +268,18 @@
 		F3A084B418291946000D01C1 /* tmovil */ = {
 			isa = PBXGroup;
 			children = (
-				F3A084E918291A28000D01C1 /* ASYNCHTTP */,
-				F3A0850418291A28000D01C1 /* expandableTableView */,
-				F3A0850D18291A28000D01C1 /* JSON */,
-				F3A0852718291A28000D01C1 /* pulltorefresh */,
+				F3A085AA18294D13000D01C1 /* Librerias */,
+				F3A085A9182948DE000D01C1 /* Parsers */,
+				F3A085A018293D13000D01C1 /* CustomCeldas */,
+				F3A0859C1829375F000D01C1 /* StarRating Control */,
+				F3A0859118293751000D01C1 /* Imagenes */,
+				F3A0855D18291F99000D01C1 /* Controladoras */,
+				F3A084B518291946000D01C1 /* Supporting Files */,
 				F3A084BD18291946000D01C1 /* AppDelegate.h */,
 				F3A084BE18291946000D01C1 /* AppDelegate.m */,
 				F3A084C018291946000D01C1 /* Main_iPhone.storyboard */,
 				F3A084C318291946000D01C1 /* Main_iPad.storyboard */,
 				F3A084CC18291946000D01C1 /* Images.xcassets */,
-				F3A084B518291946000D01C1 /* Supporting Files */,
 			);
 			path = tmovil;
 			sourceTree = "<group>";
@@ -377,6 +409,70 @@
 			path = pulltorefresh;
 			sourceTree = SOURCE_ROOT;
 		};
+		F3A0855D18291F99000D01C1 /* Controladoras */ = {
+			isa = PBXGroup;
+			children = (
+				F3A0855E18291FCD000D01C1 /* UILoginController.h */,
+				F3A0855F18291FCD000D01C1 /* UILoginController.m */,
+				F3A0856118292343000D01C1 /* UIMedicosController.h */,
+				F3A0856218292343000D01C1 /* UIMedicosController.m */,
+				F3A085641829304E000D01C1 /* DetalleMedicosController.h */,
+				F3A085651829304E000D01C1 /* DetalleMedicosController.m */,
+				F3A085A3182945EF000D01C1 /* MapLocationController.h */,
+				F3A085A4182945EF000D01C1 /* MapLocationController.m */,
+			);
+			name = Controladoras;
+			sourceTree = "<group>";
+		};
+		F3A0859118293751000D01C1 /* Imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				F3A0859218293751000D01C1 /* star.png */,
+				F3A0859318293751000D01C1 /* star.psd */,
+				F3A0859418293751000D01C1 /* star@2x.png */,
+				F3A0859518293751000D01C1 /* star_highlighted.png */,
+				F3A0859618293751000D01C1 /* star_highlighted@2x.png */,
+			);
+			path = Imagenes;
+			sourceTree = SOURCE_ROOT;
+		};
+		F3A0859C1829375F000D01C1 /* StarRating Control */ = {
+			isa = PBXGroup;
+			children = (
+				F3A0859D1829375F000D01C1 /* StarRatingControl.h */,
+				F3A0859E1829375F000D01C1 /* StarRatingControl.m */,
+			);
+			path = "StarRating Control";
+			sourceTree = SOURCE_ROOT;
+		};
+		F3A085A018293D13000D01C1 /* CustomCeldas */ = {
+			isa = PBXGroup;
+			children = (
+				F3A085A118293D51000D01C1 /* MedicoCell_iphone.xib */,
+			);
+			name = CustomCeldas;
+			sourceTree = "<group>";
+		};
+		F3A085A9182948DE000D01C1 /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				F3A085A6182948C5000D01C1 /* MedicosDataParser.h */,
+				F3A085A7182948C5000D01C1 /* MedicosDataParser.m */,
+			);
+			name = Parsers;
+			sourceTree = "<group>";
+		};
+		F3A085AA18294D13000D01C1 /* Librerias */ = {
+			isa = PBXGroup;
+			children = (
+				F3A084E918291A28000D01C1 /* ASYNCHTTP */,
+				F3A0850418291A28000D01C1 /* expandableTableView */,
+				F3A0850D18291A28000D01C1 /* JSON */,
+				F3A0852718291A28000D01C1 /* pulltorefresh */,
+			);
+			name = Librerias;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -455,10 +551,16 @@
 			files = (
 				F3A0853818291A28000D01C1 /* ExpandableAccessoryViewHighlighted@2x.png in Resources */,
 				F3A084C518291946000D01C1 /* Main_iPad.storyboard in Resources */,
+				F3A0859B18293751000D01C1 /* star_highlighted@2x.png in Resources */,
 				F3A0853718291A28000D01C1 /* ExpandableAccessoryView@2x.png in Resources */,
 				F3A084CD18291946000D01C1 /* Images.xcassets in Resources */,
+				F3A0859718293751000D01C1 /* star.png in Resources */,
 				F3A084C218291946000D01C1 /* Main_iPhone.storyboard in Resources */,
+				F3A0859918293751000D01C1 /* star@2x.png in Resources */,
+				F3A0859A18293751000D01C1 /* star_highlighted.png in Resources */,
+				F3A085A218293D51000D01C1 /* MedicoCell_iphone.xib in Resources */,
 				F3A084B918291946000D01C1 /* InfoPlist.strings in Resources */,
+				F3A0859818293751000D01C1 /* star.psd in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +582,7 @@
 				F3A0853118291A28000D01C1 /* ASIFormDataRequest.m in Sources */,
 				F3A0854618291A28000D01C1 /* SBJsonWriter.m in Sources */,
 				F3A0853218291A28000D01C1 /* ASIHTTPRequest.m in Sources */,
+				F3A0859F1829375F000D01C1 /* StarRatingControl.m in Sources */,
 				F3A0853E18291A28000D01C1 /* SBJsonStreamParserAccumulator.m in Sources */,
 				F3A084BF18291946000D01C1 /* AppDelegate.m in Sources */,
 				F3A0854118291A28000D01C1 /* SBJsonStreamWriter.m in Sources */,
@@ -489,7 +592,9 @@
 				F3A0854218291A28000D01C1 /* SBJsonStreamWriterAccumulator.m in Sources */,
 				F3A0853C18291A28000D01C1 /* SBJsonParser.m in Sources */,
 				F3A0854718291A28000D01C1 /* UIScrollView+SVInfiniteScrolling.m in Sources */,
+				F3A085A5182945EF000D01C1 /* MapLocationController.m in Sources */,
 				F3A0853018291A28000D01C1 /* ASIDownloadCache.m in Sources */,
+				F3A0856018291FCE000D01C1 /* UILoginController.m in Sources */,
 				F3A0854318291A28000D01C1 /* SBJsonStreamWriterState.m in Sources */,
 				F3A0853318291A28000D01C1 /* ASIInputStream.m in Sources */,
 				F3A0853D18291A28000D01C1 /* SBJsonStreamParser.m in Sources */,
@@ -498,11 +603,14 @@
 				F3A0854018291A28000D01C1 /* SBJsonStreamParserState.m in Sources */,
 				F3A0853918291A28000D01C1 /* ExpandableTableView.m in Sources */,
 				F3A0853618291A28000D01C1 /* Reachability.m in Sources */,
+				F3A0856318292343000D01C1 /* UIMedicosController.m in Sources */,
 				F3A0852F18291A28000D01C1 /* ASIDataDecompressor.m in Sources */,
 				F3A0853B18291A28000D01C1 /* NSObject+SBJson.m in Sources */,
+				F3A085A8182948C5000D01C1 /* MedicosDataParser.m in Sources */,
 				F3A0854818291A28000D01C1 /* UIScrollView+SVPullToRefresh.m in Sources */,
 				F3A0853A18291A28000D01C1 /* ExpandableTableViewController.m in Sources */,
 				F3A0854518291A28000D01C1 /* SBJsonUTF8Stream.m in Sources */,
+				F3A085661829304E000D01C1 /* DetalleMedicosController.m in Sources */,
 				F3A0854418291A28000D01C1 /* SBJsonTokeniser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
